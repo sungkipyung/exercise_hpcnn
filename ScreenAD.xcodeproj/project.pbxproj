@@ -7,21 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E844D2B811A70B467C611B9 /* Pods_ScreenAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61895850EDA6E9D4667EB05 /* Pods_ScreenAD.framework */; };
 		89FFAB261DF1BF7800A8890F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FFAB251DF1BF7800A8890F /* AppDelegate.swift */; };
-		89FFAB281DF1BF7800A8890F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FFAB271DF1BF7800A8890F /* ViewController.swift */; };
 		89FFAB2B1DF1BF7800A8890F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FFAB291DF1BF7800A8890F /* Main.storyboard */; };
 		89FFAB2D1DF1BF7800A8890F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89FFAB2C1DF1BF7800A8890F /* Assets.xcassets */; };
 		89FFAB301DF1BF7800A8890F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FFAB2E1DF1BF7800A8890F /* LaunchScreen.storyboard */; };
+		89FFAB3D1DF1C32000A8890F /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FFAB3C1DF1C32000A8890F /* FlickrAPI.swift */; };
+		89FFAB431DF1C64B00A8890F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FFAB421DF1C64B00A8890F /* MainViewController.swift */; };
+		89FFAB4C1DF1CED300A8890F /* YellowCow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FFAB4B1DF1CED300A8890F /* YellowCow.swift */; };
+		89FFAB501DF1D67F00A8890F /* Q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FFAB4F1DF1D67F00A8890F /* Q.swift */; };
+		89FFAB521DF1E17500A8890F /* ImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FFAB511DF1E17500A8890F /* ImageSource.swift */; };
+		89FFAB541DF1F11100A8890F /* PhotoBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FFAB531DF1F11100A8890F /* PhotoBrowserViewController.swift */; };
+		89FFAB571DF1FCEA00A8890F /* start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89FFAB561DF1FCEA00A8890F /* start.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		806E8793AB58DC7BD107A8E7 /* Pods-ScreenAD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenAD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenAD/Pods-ScreenAD.debug.xcconfig"; sourceTree = "<group>"; };
 		89FFAB221DF1BF7800A8890F /* ScreenAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89FFAB251DF1BF7800A8890F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89FFAB271DF1BF7800A8890F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89FFAB2A1DF1BF7800A8890F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89FFAB2C1DF1BF7800A8890F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89FFAB2F1DF1BF7800A8890F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89FFAB311DF1BF7800A8890F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89FFAB3C1DF1C32000A8890F /* FlickrAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		89FFAB3E1DF1C51400A8890F /* ScreenAD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenAD-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		89FFAB421DF1C64B00A8890F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		89FFAB4B1DF1CED300A8890F /* YellowCow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowCow.swift; sourceTree = "<group>"; };
+		89FFAB4F1DF1D67F00A8890F /* Q.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q.swift; sourceTree = "<group>"; };
+		89FFAB511DF1E17500A8890F /* ImageSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSource.swift; sourceTree = "<group>"; };
+		89FFAB531DF1F11100A8890F /* PhotoBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserViewController.swift; sourceTree = "<group>"; };
+		89FFAB561DF1FCEA00A8890F /* start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start.jpg; sourceTree = "<group>"; };
+		94491F8A16492DEF0AE9B645 /* Pods-ScreenAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenAD.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenAD/Pods-ScreenAD.release.xcconfig"; sourceTree = "<group>"; };
+		E61895850EDA6E9D4667EB05 /* Pods_ScreenAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E844D2B811A70B467C611B9 /* Pods_ScreenAD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A782C2258E12AADFFFC8017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E61895850EDA6E9D4667EB05 /* Pods_ScreenAD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89FFAB191DF1BF7800A8890F = {
 			isa = PBXGroup;
 			children = (
 				89FFAB241DF1BF7800A8890F /* ScreenAD */,
 				89FFAB231DF1BF7800A8890F /* Products */,
+				9BE90A80C7B44D1D3A36F842 /* Pods */,
+				7A782C2258E12AADFFFC8017 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,94 @@
 		89FFAB241DF1BF7800A8890F /* ScreenAD */ = {
 			isa = PBXGroup;
 			children = (
-				89FFAB251DF1BF7800A8890F /* AppDelegate.swift */,
-				89FFAB271DF1BF7800A8890F /* ViewController.swift */,
-				89FFAB291DF1BF7800A8890F /* Main.storyboard */,
-				89FFAB2C1DF1BF7800A8890F /* Assets.xcassets */,
+				89FFAB371DF1C2B100A8890F /* Resources */,
+				89FFAB391DF1C2CB00A8890F /* Classes */,
+			);
+			path = ScreenAD;
+			sourceTree = "<group>";
+		};
+		89FFAB371DF1C2B100A8890F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89FFAB381DF1C2BB00A8890F /* Storyboard */,
+				89FFAB3A1DF1C2D900A8890F /* Assets */,
 				89FFAB2E1DF1BF7800A8890F /* LaunchScreen.storyboard */,
 				89FFAB311DF1BF7800A8890F /* Info.plist */,
 			);
-			path = ScreenAD;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		89FFAB381DF1C2BB00A8890F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				89FFAB291DF1BF7800A8890F /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		89FFAB391DF1C2CB00A8890F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				89FFAB251DF1BF7800A8890F /* AppDelegate.swift */,
+				89FFAB551DF1F90100A8890F /* Controller */,
+				89FFAB441DF1CBFC00A8890F /* Utils */,
+				89FFAB401DF1C52000A8890F /* Obj-c */,
+				89FFAB3B1DF1C30300A8890F /* API */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		89FFAB3A1DF1C2D900A8890F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				89FFAB561DF1FCEA00A8890F /* start.jpg */,
+				89FFAB2C1DF1BF7800A8890F /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		89FFAB3B1DF1C30300A8890F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				89FFAB3C1DF1C32000A8890F /* FlickrAPI.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		89FFAB401DF1C52000A8890F /* Obj-c */ = {
+			isa = PBXGroup;
+			children = (
+				89FFAB3E1DF1C51400A8890F /* ScreenAD-Bridging-Header.h */,
+			);
+			name = "Obj-c";
+			sourceTree = "<group>";
+		};
+		89FFAB441DF1CBFC00A8890F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				89FFAB4B1DF1CED300A8890F /* YellowCow.swift */,
+				89FFAB4F1DF1D67F00A8890F /* Q.swift */,
+				89FFAB511DF1E17500A8890F /* ImageSource.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		89FFAB551DF1F90100A8890F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89FFAB421DF1C64B00A8890F /* MainViewController.swift */,
+				89FFAB531DF1F11100A8890F /* PhotoBrowserViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9BE90A80C7B44D1D3A36F842 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				806E8793AB58DC7BD107A8E7 /* Pods-ScreenAD.debug.xcconfig */,
+				94491F8A16492DEF0AE9B645 /* Pods-ScreenAD.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89FFAB341DF1BF7800A8890F /* Build configuration list for PBXNativeTarget "ScreenAD" */;
 			buildPhases = (
+				784B9428435E8387D445FBDE /* [CP] Check Pods Manifest.lock */,
 				89FFAB1E1DF1BF7800A8890F /* Sources */,
 				89FFAB1F1DF1BF7800A8890F /* Frameworks */,
 				89FFAB201DF1BF7800A8890F /* Resources */,
+				AB92E316966375F1948488C1 /* [CP] Embed Pods Frameworks */,
+				1D19058A01B67AE7D7FEB38F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +207,7 @@
 				TargetAttributes = {
 					89FFAB211DF1BF7800A8890F = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -125,19 +237,73 @@
 			files = (
 				89FFAB301DF1BF7800A8890F /* LaunchScreen.storyboard in Resources */,
 				89FFAB2D1DF1BF7800A8890F /* Assets.xcassets in Resources */,
+				89FFAB571DF1FCEA00A8890F /* start.jpg in Resources */,
 				89FFAB2B1DF1BF7800A8890F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D19058A01B67AE7D7FEB38F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScreenAD/Pods-ScreenAD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		784B9428435E8387D445FBDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB92E316966375F1948488C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScreenAD/Pods-ScreenAD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89FFAB1E1DF1BF7800A8890F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89FFAB281DF1BF7800A8890F /* ViewController.swift in Sources */,
+				89FFAB541DF1F11100A8890F /* PhotoBrowserViewController.swift in Sources */,
+				89FFAB431DF1C64B00A8890F /* MainViewController.swift in Sources */,
 				89FFAB261DF1BF7800A8890F /* AppDelegate.swift in Sources */,
+				89FFAB4C1DF1CED300A8890F /* YellowCow.swift in Sources */,
+				89FFAB521DF1E17500A8890F /* ImageSource.swift in Sources */,
+				89FFAB501DF1D67F00A8890F /* Q.swift in Sources */,
+				89FFAB3D1DF1C32000A8890F /* FlickrAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,26 +424,35 @@
 		};
 		89FFAB351DF1BF7800A8890F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806E8793AB58DC7BD107A8E7 /* Pods-ScreenAD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ScreenAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.wendies.hothead.ScreenAD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScreenAD-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		89FFAB361DF1BF7800A8890F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94491F8A16492DEF0AE9B645 /* Pods-ScreenAD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ScreenAD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.wendies.hothead.ScreenAD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScreenAD-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -301,6 +476,7 @@
 				89FFAB361DF1BF7800A8890F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
