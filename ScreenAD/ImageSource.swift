@@ -16,7 +16,7 @@ protocol ImageSourceDelegate: class {
 }
 
 class ImageSource {
-    var delegate: ImageSourceDelegate?
+    weak var delegate: ImageSourceDelegate?
     
     static fileprivate let maxCheckerCount = 1000
     fileprivate var checker = Set<String>()
